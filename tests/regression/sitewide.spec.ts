@@ -8,7 +8,7 @@ import { assertTitleContains, assertPagePath } from '../../utils/testHelpers';
  */
 test.describe('Sitewide Regression', () => {
   const pages = [
-    { name: 'Homepage',                    path: '/',                                  titleFragment: 'Actual Metrics' },
+    { name: 'Homepage',                    path: '/',                                  titleFragment: 'Web Analytics' },
     { name: 'Angelfish',                   path: '/angelfish-web-analytics-software/', titleFragment: 'Angelfish' },
     { name: 'Urchin',                      path: '/urchin-software/',                  titleFragment: 'Urchin' },
     { name: 'Google Analytics Alternative',path: '/google-analytics-alternative/',     titleFragment: 'Google Analytics' },

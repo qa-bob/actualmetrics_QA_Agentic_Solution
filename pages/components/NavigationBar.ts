@@ -55,10 +55,12 @@ export class NavigationBar {
   }
 
   async navigateToConsulting(): Promise<void> {
+    await this.servicesMenuLink.hover();
     await this.consultingLink.click();
   }
 
   async navigateToAboutUs(): Promise<void> {
+    await this.companyMenuLink.hover();
     await this.aboutUsLink.click();
   }
 

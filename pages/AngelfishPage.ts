@@ -15,8 +15,8 @@ export class AngelfishPage extends BasePage {
     this.nav    = new NavigationBar(page);
     this.footer = new Footer(page);
 
-    // The h1/h2 heading on the Angelfish product page
-    this.pageHeading = page.locator('#main-content').getByRole('heading').first();
+    // h1 lives in the page's header graphic band, not in #main-content
+    this.pageHeading = page.locator('#header-graphic-angelfish h1');
     this.pageContent = page.locator('#main-content .entry-content');
   }
 

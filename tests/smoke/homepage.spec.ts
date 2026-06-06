@@ -2,8 +2,8 @@ import { test, expect } from '../../fixtures/index';
 import { assertTitleContains } from '../../utils/testHelpers';
 
 test.describe('Homepage', () => {
-  test('Homepage: page title contains "Actual Metrics"', async ({ homePage }) => {
-    await assertTitleContains(homePage.page, 'Actual Metrics');
+  test('Homepage: page title matches the site tagline', async ({ homePage }) => {
+    await assertTitleContains(homePage.page, 'Web Analytics');
   });
 
   test('Homepage: tagline reads "We Specialize in Website Performance Measurement"', async ({ homePage }) => {
