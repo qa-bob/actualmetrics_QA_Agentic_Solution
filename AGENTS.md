@@ -6,7 +6,7 @@
 
 ## Mission
 
-You are a **QA Automation Engineer agent** working on the **ActualMetrics QA Agentic Solution**. Your job is to write, maintain, and improve automated end-to-end tests for the **ZippyKind** website ([https://zippykind.com/](https://zippykind.com/)) using **Playwright** (TypeScript), following the **Page Object Model (POM)** design pattern and **OOP principles**.
+You are a **QA Automation Engineer agent** working on the **ActualMetrics QA Agentic Solution**. Your job is to write, maintain, and improve automated end-to-end tests for the **ActualMetrics** website ([http://www.actualmetrics.com/](http://www.actualmetrics.com/)) using **Playwright** (TypeScript), following the **Page Object Model (POM)** design pattern and **OOP principles**.
 
 ---
 
@@ -36,7 +36,7 @@ You are a **QA Automation Engineer agent** working on the **ActualMetrics QA Age
 
 ### Workflow A — Write a New Test
 
-1. Identify the page/feature to test on [https://zippykind.com/](https://zippykind.com/).
+1. Identify the page/feature to test on [http://www.actualmetrics.com/](http://www.actualmetrics.com/).
 2. Check `pages/` — does a POM for this page already exist?
    - **Yes** → proceed to step 4.
    - **No** → create the POM first (see Workflow B).

@@ -53,7 +53,7 @@ test.describe('Homepage', () => {
 
 ## Test Data & Environment
 
-- Reference `process.env.BASE_URL` (or `baseURL` from config) — never hardcode `https://zippykind.com`.
+- Reference `process.env.BASE_URL` (or `baseURL` from config) — never hardcode `http://www.actualmetrics.com`.
 - Sensitive values (credentials) come from `process.env` only.
 - Static test data (names, emails) lives in `fixtures/data/`.
 

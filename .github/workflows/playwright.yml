@@ -34,7 +34,7 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test
         env:
-          BASE_URL: ${{ secrets.BASE_URL || 'https://zippykind.com' }}
+          BASE_URL: ${{ secrets.BASE_URL || 'http://www.actualmetrics.com' }}
           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
           TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
 

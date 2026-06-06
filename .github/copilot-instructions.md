@@ -6,7 +6,7 @@
 
 ## Project Summary
 
-This repository is the **ActualMetrics QA Agentic Solution** — an AI-assisted, automated end-to-end test framework that validates the **ZippyKind** website at [https://zippykind.com/](https://zippykind.com/).
+This repository is the **ActualMetrics QA Agentic Solution** — an AI-assisted, automated end-to-end test framework that validates the **ActualMetrics** website at [http://www.actualmetrics.com/](http://www.actualmetrics.com/).
 
 - **Test Framework:** [Playwright](https://playwright.dev/) (TypeScript)
 - **Design Pattern:** Page Object Model (POM)
@@ -112,7 +112,7 @@ npm run lint
 
 | Variable         | Purpose                          |
 |------------------|----------------------------------|
-| `BASE_URL`       | Override base URL (default: `https://zippykind.com`) |
+| `BASE_URL`       | Override base URL (default: `http://www.actualmetrics.com`) |
 | `TEST_USERNAME`  | Login username for authenticated tests |
 | `TEST_PASSWORD`  | Login password for authenticated tests |
 

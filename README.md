@@ -1,6 +1,6 @@
 # ActualMetrics — QA Agentic Solution
 
-> AI-assisted, automated end-to-end test framework for **[ZippyKind](https://zippykind.com/)**, built with Playwright + TypeScript, powered by GitHub Copilot.
+> AI-assisted, automated end-to-end test framework for **[ActualMetrics](http://www.actualmetrics.com/)**, built with Playwright + TypeScript, powered by GitHub Copilot.
 
 [![Playwright Tests](https://github.com/qa-bob/actualmetrics_QA_Agentic_Solution/actions/workflows/playwright.yml/badge.svg)](https://github.com/qa-bob/actualmetrics_QA_Agentic_Solution/actions/workflows/playwright.yml)
 
@@ -8,7 +8,7 @@
 
 ## 📋 Purpose
 
-This repository delivers an end-to-end QA automation solution for the [ZippyKind](https://zippykind.com/) website. It is built and maintained using:
+This repository delivers an end-to-end QA automation solution for the [ActualMetrics](http://www.actualmetrics.com/) website. It is built and maintained using:
 
 - **GitHub Copilot** (AI-assisted test generation and code review)
 - **Playwright** (browser automation framework)
@@ -135,7 +135,7 @@ Copy `.env.example` to `.env` and fill in the values. **Never commit `.env`.**
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `BASE_URL` | No | `https://zippykind.com` | Target site URL |
+| `BASE_URL` | No | `http://www.actualmetrics.com` | Target site URL |
 | `TEST_USERNAME` | For auth tests | — | Login username |
 | `TEST_PASSWORD` | For auth tests | — | Login password |
 

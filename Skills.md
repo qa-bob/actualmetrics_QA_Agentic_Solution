@@ -16,7 +16,7 @@ Manage skills with the `/skills` command in the Copilot CLI.
 
 ### 1. `scaffold-page-object`
 
-**Purpose:** Generate a new Page Object Model (POM) class for a given page on the ZippyKind website.
+**Purpose:** Generate a new Page Object Model (POM) class for a given page on the ActualMetrics website.
 
 **When to use:** When you need to add test coverage for a page that does not yet have a POM in `pages/`.
 
