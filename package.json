@@ -1,0 +1,26 @@
+{
+  "name": "actualmetrics-qa-agentic-solution",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript end-to-end test suite for https://www.actualmetrics.com/",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke/",
+    "test:functional": "playwright test tests/functional/",
+    "test:regression": "playwright test tests/regression/",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.0"
+  }
+}

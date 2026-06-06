@@ -1,0 +1,9 @@
+{
+  "search": {
+    "validQuery": "Angelfish",
+    "noResultsQuery": "xzqwerty99999notaword"
+  },
+  "navigation": {
+    "expectedMenuItems": ["Angelfish", "Urchin", "Google Analytics Alternative", "Services", "Company"]
+  }
+}
